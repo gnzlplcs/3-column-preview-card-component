@@ -16,7 +16,8 @@
 .prettierignore
 
 # Avoid to track node and sass files
-node_modules
-sass
+node_modules/
+sass/
+
 *.scss
 *.sass
