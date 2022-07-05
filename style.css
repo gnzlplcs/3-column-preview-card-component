@@ -1,3 +1,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  margin: 0 auto;
+  max-width: 375px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  padding: 10px;
+}
+.container :nth-child(1) {
+  border-radius: 10px 10px 0 0;
+}
+.container :nth-child(3) {
+  border-radius: 0 0 10px 10px;
+}
+
+.card {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px 40px;
+}
+
+.card--sedan {
+  background-color: #e38826;
+}
+.card--sedan .card--button {
+  color: #e38826;
+}
+
+.card--suvs {
+  background-color: #006970;
+}
+.card--suvs .card--button {
+  color: #006970;
+}
+
+.card--luxury {
+  background-color: #004241;
+}
+.card--luxury .card--button {
+  color: #004241;
+}
+
+.card--title {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.card--text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.card--button {
+  width: 60%;
+  height: 50px;
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
