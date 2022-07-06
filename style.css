@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 body {
   margin: 0 auto;
-  max-width: 375px;
   background-color: #f2f2f2;
 }
 
 .container {
+  max-width: 375px;
   padding: 10px;
 }
 .container :nth-child(1) {
@@ -62,9 +62,46 @@ body {
   font-weight: bold;
   font-size: 1rem;
   background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
   border-radius: 25px;
   cursor: pointer;
+}
+
+.attribution {
+  color: #006970;
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+.attribution a {
+  text-decoration: none;
+  color: #006970;
+}
+.attribution a:hover {
+  color: #004241;
+  border-bottom: 1px solid #004241;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container :nth-child(1) {
+    border-radius: 10px 0 0 10px;
+  }
+  .container :nth-child(3) {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .card {
+    width: 250px;
+  }
+
+  .card--button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #f2f2f2;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
