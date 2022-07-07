@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/gnzlplcs/product-card-component)
-- Live Site URL: [Add live site URL here](https://gnzlplcs.github.io/product-card-component/)
+- Solution URL: [Add solution URL here](https://github.com/gnzlplcs/3-column-preview-card-component)
+- Live Site URL: [Add live site URL here](https://gnzlplcs.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -39,10 +39,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [Sass](https://sass-lang.com/)
-- [Boxicons](https://boxicons.com/) - React framework
 
 ## Author
 
